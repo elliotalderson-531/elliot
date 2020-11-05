@@ -1,7 +1,7 @@
 #!/bin/bash
-# Coded by: thelinuxchoice (Don't change, noob!)
-# www.github.com/thelinuxchoice
-# www.instagram.com/thelinuxchoice
+# Coded by: guccimanezz 
+# www.github.com/elliotaldersonm
+# www.instagram.com/_guccimanezz_
 
 trap 'store; exit 1;' 2
 
@@ -29,14 +29,14 @@ var2=$(echo $var0 | awk -F ';' '{print $2}' | cut -d '=' -f3)
 
 
 banner() {
-
-printf "\e[1;95m  _              _            \e[0m\e[1;91m_____                                  \e[0m\n"
-printf "\e[1;95m (_) _ __   ___ | |_   __ _   \e[0m\e[1;91m\_   \ _ __   ___   __ _  _ __    ___  \e[0m\n"
-printf "\e[1;95m | || '_ \ / __|| __| / _\` |   \e[0m\e[1;91m/ /\/| '_ \ / __| / _\` || '_ \  / _ \ \e[0m\n"
-printf "\e[1;95m | || | | |\__ \| |_ | (_| |\e[0m\e[1;91m/\/ /_  | | | |\__ \| (_| || | | ||  __/ \e[0m\n"
-printf "\e[1;77m |_||_| |_||___/ \__| \__,_|\e[0m\e[1;77m\____/  |_| |_||___/ \__,_||_| |_| \___| \e[0m\n"
+printf "\e[1;95m ___________       ________  ___________________________________.___._____________________________ __________ 
+printf "\e[1;95m \_   _____/       \______ \ \_   _____/\_   ___ \______   \__  |   |\______   \__    ___/\_____  \\______   \
+printf "\e[1;95m  |    __)  ______  |    |  \ |    __)_ /    \  \/|       _//   |   | |     ___/ |    |    /   |   \|       _/
+printf "\e[1;95m  |     \  /_____/  |    `   \|        \\     \___|    |   \\____   | |    |     |    |   /    |    \    |   \
+printf "\e[1;95m  \___  /          /_______  /_______  / \______  /____|_  // ______| |____|     |____|   \_______  /____|_  /
+printf "\e[1;77m   \/                   \/        \/         \/       \/ \/                                    \/       \/ 
 printf "\n"
-printf "\e[1;77m\e[41m  Instagram Brute Forcer v1.0, Author: @thelinuxchoice (Github/IG)  \e[0m\n" #Don't change, noob
+printf "\e[1;77m\e[41m  Instagram Brute Forcer v1.0, Author: @_guccimanezz_ (Github/IG)  
 printf "\n"
 }
 
